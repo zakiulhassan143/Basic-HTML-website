@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins";
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border: 2px solid black;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        main {
+            width: 900px;
+            border: 2px solid black;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Comic Sans MS', cursive;
+        }
+        p {
+            text-align: center;
+            color: grey;
+        }
+        .container {
+            display: flex;
+            border-top: 2px solid black;
+        }
+        .left-panel {
+            width: 30%;
+            border-right: 2px solid black;
+            padding: 10px;
+        }
+        .right-panel {
+            width: 70%;
+            padding: 10px;
+        }
+        .reviews {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            border-top: 2px solid black;
+            padding: 20px;
+        }
+        .review-box {
+            width: 30%;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 2px solid black;
+        }
+
+        ul{
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <strong>Your Name</strong>
+        </div>
+        <nav>
+            <a href="#">Home</a> /
+            <a href="#">Projects</a> /
+            <a href="#">Articles</a> /
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Frontend Developer</h1>
+        <p>html only with proper layout, no styling</p>
+        
+        <div class="container">
+            <div class="left-panel">
+                <h2>Projects</h2>
+                <ul>
+                    <li>HTML (Only Portfolio)</li>
+                    <li>Calculator</li>
+                    <li>Quiz App</li>
+                    <li>Countdown Timer</li>
+                    <li>Product Upcoming Page</li>
+                </ul>
+            </div>
+            <div class="right-panel">
+                <h2>Work Experience</h2>
+                <h3>roadmap.sh</h3>
+                <p style="text-align: left;">Solved all the frontend projects</p>
+                <a href="https://github.com/zakiulhassan143">Visit my Profile</a>
+                <h3>OpenSource Work</h3>
+                <p style="text-align: left;">Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars. (Everything's Wrong)</p>
+                <a href="https://github.com/zakiulhassan143" >Visit my GitHub Profile</a>
+                <br>
+                <h2>Education</h2>
+                <p style="text-align: left;">Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+                <br>
+                <h3>Courses I took:</h3>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Database Management Systems</li>
+                    <li>Distributed Database Systems</li>
+                    <li>Discrete Mathematics</li>
+                </ul>
+            </div>
+        </div>
+<br>
+        <div class="reviews">
+            <div class="review-box">
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+            </div>
+            <div class="review-box">
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+            </div>
+            <div class="review-box">
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; all rights reserved 2025</p>
+    </footer>
+</body>
+</html>
